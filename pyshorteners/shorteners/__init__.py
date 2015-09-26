@@ -19,6 +19,7 @@ from .mtnymobi import MtnymobiShortener
 from .scryin import ScryinShortener
 from .hescu import HescuShortener
 from .fifocc import FifoccShortener
+from .bngy import BngyShortener
 
 from ..utils import is_valid_url
 from ..exceptions import UnknownShortenerException
