@@ -14,6 +14,7 @@ from .owly import OwlyShortener
 from .readability import ReadabilityShortener
 from .awsm import AwsmShortener
 from .osdb import OsdbShortener
+from .drngdk import DrngdkShortener
 
 from ..utils import is_valid_url
 from ..exceptions import UnknownShortenerException
