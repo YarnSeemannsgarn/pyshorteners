@@ -17,6 +17,7 @@ from .osdb import OsdbShortener
 from .drngdk import DrngdkShortener
 from .mtnymobi import MtnymobiShortener
 from .scryin import ScryinShortener
+from .hescu import HescuShortener
 
 from ..utils import is_valid_url
 from ..exceptions import UnknownShortenerException
