@@ -12,7 +12,7 @@ class B54inShortener(BaseShortener):
 
     def short(self, url):
         params = {
-            'action': 'shorturle',
+            'action': 'shorturl',
             'format': 'simple',
             'url': url,
         }
