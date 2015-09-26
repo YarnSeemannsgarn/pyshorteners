@@ -20,6 +20,7 @@ from .scryin import ScryinShortener
 from .hescu import HescuShortener
 from .fifocc import FifoccShortener
 from .bngy import BngyShortener
+from .b54in import B54inShortener
 
 from ..utils import is_valid_url
 from ..exceptions import UnknownShortenerException
