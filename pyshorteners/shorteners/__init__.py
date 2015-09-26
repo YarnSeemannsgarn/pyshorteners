@@ -16,6 +16,7 @@ from .awsm import AwsmShortener
 from .osdb import OsdbShortener
 from .drngdk import DrngdkShortener
 from .mtnymobi import MtnymobiShortener
+from .scryin import ScryinShortener
 
 from ..utils import is_valid_url
 from ..exceptions import UnknownShortenerException
