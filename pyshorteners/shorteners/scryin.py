@@ -12,7 +12,7 @@ class ScryinShortener(BaseShortener):
 
     def short(self, url):
         params = {
-            'action': 'shorturle',
+            'action': 'shorturl',
             'format': 'simple',
             'url': url,
         }
